@@ -8,7 +8,10 @@ using namespace std;
 
 const ll MOD = 1e9 + 7;
 
+//============================================//
+
 void solution(){
+	# Your code goes here.
     int n,k;
     cin>>n>>k;
     
@@ -21,6 +24,8 @@ void solution(){
     }
     cout<<endl;
 }
+
+//============================================//
 
 int32_t main(){
 	ios_base::sync_with_stdio(false);
