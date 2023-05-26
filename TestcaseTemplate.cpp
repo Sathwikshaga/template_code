@@ -11,7 +11,7 @@ const ll MOD = 1e9 + 7;
 //============================================//
 
 void solution(){
-	# Your code goes here.
+	//Your code goes here.
     int n,k;
     cin>>n>>k;
     
