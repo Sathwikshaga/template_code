@@ -6,6 +6,13 @@ using namespace std;
 #define ll long long
 #define ld long double
 
+//Declaration
+template <typename T, typename P>
+auto maximum( T a, P b) -> decltype((a > b)? a : b) ;
+
+template <typename T, typename P>
+auto minimum( T a, P b) -> decltype((a < b)? a : b) ;
+
 const ll MOD = 1e9 + 7;
 
 //============================================//
@@ -37,4 +44,14 @@ int32_t main(){
 	    solution();
 	}
 	return 0;
+}
+
+//Definition
+template <typename T, typename P>
+auto maximum( T a, P b) -> decltype((a > b)? a : b) {
+    return (a > b)? a : b;
+	
+}template <typename T, typename P>
+auto minimum( T a, P b) -> decltype((a < b)? a : b) {
+    return (a < b)? a : b;
 }
