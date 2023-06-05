@@ -6,9 +6,9 @@
 using namespace std;
 
 #define int long long
-
 #define ll long long
 #define ld long double
+#define all(a) (a).begin(), (a).end()
 
 // Declaration
 
