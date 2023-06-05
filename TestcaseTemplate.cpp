@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <cmath>
 #include <algorithm>
 using namespace std;
 
@@ -10,11 +11,7 @@ using namespace std;
 #define ld long double
 
 //Declaration
-template <typename T, typename P>
-auto maximum( T a, P b) -> decltype((a > b)? a : b) ;
 
-template <typename T, typename P>
-auto minimum( T a, P b) -> decltype((a < b)? a : b) ;
 
 const ll MOD = 1e9 + 7;
 
@@ -28,9 +25,9 @@ void solution(){
 //     vector<int> a(n);
 //     for(int i=0;i<n;i++){
 //         cin>>a[i];
-//     }  
+//     }
 //     for(int i=0;i<n;i++){
-      
+    	
 //     }
 //     cout<< "YES" <<endl;
 }
@@ -47,14 +44,4 @@ int32_t main(){
 	    solution();
 	}
 	return 0;
-}
-
-//Definition
-template <typename T, typename P>
-auto maximum( T a, P b) -> decltype((a > b)? a : b) {
-    return (a > b)? a : b;
-	
-}template <typename T, typename P>
-auto minimum( T a, P b) -> decltype((a < b)? a : b) {
-    return (a < b)? a : b;
 }
