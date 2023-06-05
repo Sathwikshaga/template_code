@@ -13,7 +13,7 @@ using namespace std;
 //Declaration
 
 
-const ll MOD = 1e9 + 7;
+const ll mod = 1e9 + 7;
 
 //============================================//
 
@@ -37,10 +37,10 @@ void solution(){
 int32_t main(){
 	ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-	int t = 1;
-	cin>>t;
+	int tt = 1;
+	cin>>tt;
 	
-	while(t--){
+	while(tt--){
 	    solution();
 	}
 	return 0;
