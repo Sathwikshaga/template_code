@@ -15,7 +15,7 @@ using namespace std;
 
 // Declaration
 
-const ll mod = 1e9 + 7;
+const int mod = 1e9 + 7;
 
 //============================================//
 
